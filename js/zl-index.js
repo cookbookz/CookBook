@@ -59,7 +59,7 @@ $(function(){
 		$('.zl-yuandi').removeClass('zl-show');
 		// $('.zl-chuancai').on('transitionend',function(){
 			
-			$('.zl-zao').css('height','0')
+			$('.zl-zao').off().css('height','0')
 		// })
 	})
 })
