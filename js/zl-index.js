@@ -62,4 +62,13 @@ $(function(){
 			$('.zl-zao').off().css('height','0')
 		// })
 	})
+// 搜索框
+	// $('.zl-search >input').on('focus',function(){
+	// 	// location.href=''
+	// 	location.href='zl-sousuo.html'
+	// })
+	$('.zl-search').on('touchstart',function(){
+		// location.href=''
+		location.href='zl-sousuo.html'
+	})
 })
