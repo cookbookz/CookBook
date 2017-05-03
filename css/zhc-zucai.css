@@ -64,7 +64,6 @@ html,body{
 .zhc-one .zhc-onepic img{
 	height: 100%;
 }
-
 .zhc-onebian{
 	height: 0.7rem;
 	width: 100%;
@@ -118,6 +117,7 @@ html,body{
 	height:auto;
 	padding: 0 0.24rem;
 	box-sizing: border-box;
+	padding-bottom: 1rem;
 }
 .zhc-zcmain .zhc-zcart{
 	width: 100%;

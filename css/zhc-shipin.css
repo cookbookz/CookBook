@@ -1,0 +1,66 @@
+.zhc-sp{
+	height: 0.88rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #ffdc3b;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.zhc-sp img{
+	height: 100%;
+}
+.zhc-sp div{
+	display: inline-block;
+	height: 100%;
+	width: 0.4rem;
+}
+
+/*内容*/
+.zhc-shipin{
+	height: auto;
+	width: 100%;
+	padding: 0.24rem;
+	box-sizing: border-box;
+}
+.zhc-ban{
+	width: 100%;
+	height: auto;
+}
+.zhc-ban a{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.zhc-ban a img{
+	width: 100%;
+}
+
+.zhc-shiul{
+	height: auto;
+	width: 100%;
+	padding-top: 0.36rem;
+	box-sizing: border-box;
+}
+.zhc-shiul li{
+	width: 100%;
+	height: 2.58rem;
+	position: relative;
+	box-shadow: 0 -0.04rem 0.04rem #e0e0e0;
+	margin-bottom:0.36rem ;
+}
+.zhc-shiul li a{
+	display: block;
+	width: 3.3rem;
+	height: auto;
+	position: absolute;
+	top: -0.13rem;
+	left: 0;
+}
+.zhc-shiul li a img{
+	width: 100%;
+	height: 100%;
+}
