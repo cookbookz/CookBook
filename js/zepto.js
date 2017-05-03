@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Zepto v1.2.0 - zepto event ajax form ie - zeptojs.com/license */
 (function(global, factory) {
   if (typeof define === 'function' && define.amd)
@@ -6,6 +7,13 @@
     factory(global)
 }(this, function(window) {
   var Zepto = (function() {
+=======
+//     Zepto.js
+//     (c) 2010-2016 Thomas Fuchs
+//     Zepto.js may be freely distributed under the MIT license.
+
+var Zepto = (function() {
+>>>>>>> 506b11a3bd68c59a97329c642b91fd412a919070
   var undefined, key, $, classList, emptyArray = [], concat = emptyArray.concat, filter = emptyArray.filter, slice = emptyArray.slice,
     document = window.document,
     elementDisplay = {}, classCache = {},
@@ -938,6 +946,7 @@
   return $
 })()
 
+<<<<<<< HEAD
 window.Zepto = Zepto
 window.$ === undefined && (window.$ = Zepto)
 
@@ -1648,3 +1657,8 @@ window.$ === undefined && (window.$ = Zepto)
 })()
   return Zepto
 }))
+=======
+// If `$` is not yet defined, point it to `Zepto`
+window.Zepto = Zepto
+window.$ === undefined && (window.$ = Zepto)
+>>>>>>> 506b11a3bd68c59a97329c642b91fd412a919070
