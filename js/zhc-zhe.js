@@ -1,4 +1,4 @@
-Zepto(function($){
+$(document).ready(function(){
 	$('.zhc-zcheader img').last().on('touchstart',function(){
 		$('body').addClass('.zhebox')
 		$('html').addClass('.zhebox')

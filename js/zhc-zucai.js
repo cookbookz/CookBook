@@ -1,4 +1,4 @@
-Zepto(function($){
+$(document).ready(function(){
 	
 	$('article').each(function(index,val){
 		$('ul li',val).on('touchend',function(){
