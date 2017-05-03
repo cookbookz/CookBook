@@ -8,10 +8,11 @@
 	<script type="text/javascript" src="../js/jquery.js" ></script>
 	<script type="text/javascript" src="../js/zhc-zhe.js" ></script>
 	<script type="text/javascript" src="../js/common.js" ></script>
+	<script src="../js/iscroll.js"></script>
 	<link rel="stylesheet" href="../css/common.css" />
 	<link rel="stylesheet" href="../css/zhc-zucai2.css" />
 	<body class="zhebox">
-		<section class="zhc-box" id="header">
+		<section class="zhc-box" id="zhc-header">
 			<header class="zhc-zcheader">
 				<img src="../img/zhc/images/zhc-ph_03.png" />
 				<img src="../img/zhc/images/zhc-zucai1_03.png" />
@@ -21,6 +22,8 @@
 				<img src="../img/zhc/images/zhc1_06.png" />
 			</section>
 		</section>
+		<main id="zhc-wrapper">
+			<article>
 		<ul class="zhc-zcmian">
 			<li><a href="">
 				<div class="zhc-l"><img src="../img/zhc/images/zhc-img1_10.png"></div>
@@ -143,6 +146,8 @@
 				</div>
 			</a></li>
 		</ul>
+			</article>
+		</main>
 		<section class="zhc-zhe">
 			<section class="zhc-sx">
 				<div class="zhebiao"><img src="../img/zhc/images/shaixuan1_03.png"></div>
@@ -196,5 +201,19 @@
 				</div>
 			</section>
 		</section>
+		
+		
+		<script type="text/javascript">
+			window.onload=function(){
+				
+				var	myScroll = new IScroll('#zhc-wrapper', {
+						scrollbars: false,//是否显示为默认的滚动条
+						mouseWheel: true,
+						scrollX:true,
+						shrinkScrollbars: 'scale',
+						fadeScrollbars: true,
+				});
+			}
+		</script>
 	</body>
 </html>

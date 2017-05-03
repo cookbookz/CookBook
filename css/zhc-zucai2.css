@@ -6,7 +6,36 @@ body{
 .zhebox{
 	height: 100%;
 	width: 100%;
+	/*overflow: hidden;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#zhc-wrapper{
+	height: 11.22rem;
+	width: 100%;
+	position:absolute;
+	top: 2.12rem;
+	bottom: 0;
 	overflow: hidden;
+	background: #fff;
+}
+.iScrollVerticalScrollbar{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 0.1rem;
+	border-radius: 0.08rem;
+}
+.iScrollIndicator{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: rgba(0,0,0,0.6);
+	z-index: 99;
+	width: 100%;
+	border-radius: 8px;
 }
 .zhc-box{
 	width: 100%;
