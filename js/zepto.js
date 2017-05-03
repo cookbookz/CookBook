@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Zepto v1.2.0 - zepto event ajax form ie - zeptojs.com/license */
 (function(global, factory) {
   if (typeof define === 'function' && define.amd)
@@ -7,13 +6,6 @@
     factory(global)
 }(this, function(window) {
   var Zepto = (function() {
-=======
-//     Zepto.js
-//     (c) 2010-2017 Thomas Fuchs
-//     Zepto.js may be freely distributed under the MIT license.
-
-var Zepto = (function() {
->>>>>>> 6ab8c934a39da1ab2d659a1acbf02137c28e908e
   var undefined, key, $, classList, emptyArray = [], concat = emptyArray.concat, filter = emptyArray.filter, slice = emptyArray.slice,
     document = window.document,
     elementDisplay = {}, classCache = {},
@@ -36,10 +28,7 @@ var Zepto = (function() {
       'td': tableRow, 'th': tableRow,
       '*': document.createElement('div')
     },
-<<<<<<< HEAD
     readyRE = /complete|loaded|interactive/,
-=======
->>>>>>> 6ab8c934a39da1ab2d659a1acbf02137c28e908e
     simpleSelectorRE = /^[\w-]*$/,
     class2type = {},
     toString = class2type.toString,
@@ -451,26 +440,10 @@ var Zepto = (function() {
     },
 
     ready: function(callback){
-<<<<<<< HEAD
       // need to check if document.body exists for IE as that browser reports
       // document ready when it hasn't yet created the body element
       if (readyRE.test(document.readyState) && document.body) callback($)
       else document.addEventListener('DOMContentLoaded', function(){ callback($) }, false)
-=======
-      // don't use "interactive" on IE <= 10 (it can fired premature)
-      if (document.readyState === "complete" ||
-          (document.readyState !== "loading" && !document.documentElement.doScroll))
-        setTimeout(function(){ callback($) }, 0)
-      else {
-        var handler = function() {
-          document.removeEventListener("DOMContentLoaded", handler, false)
-          window.removeEventListener("load", handler, false)
-          callback($)
-        }
-        document.addEventListener("DOMContentLoaded", handler, false)
-        window.addEventListener("load", handler, false)
-      }
->>>>>>> 6ab8c934a39da1ab2d659a1acbf02137c28e908e
       return this
     },
     get: function(idx){
@@ -965,7 +938,6 @@ var Zepto = (function() {
   return $
 })()
 
-<<<<<<< HEAD
 window.Zepto = Zepto
 window.$ === undefined && (window.$ = Zepto)
 
@@ -1676,8 +1648,3 @@ window.$ === undefined && (window.$ = Zepto)
 })()
   return Zepto
 }))
-=======
-// If `$` is not yet defined, point it to `Zepto`
-window.Zepto = Zepto
-window.$ === undefined && (window.$ = Zepto)
->>>>>>> 6ab8c934a39da1ab2d659a1acbf02137c28e908e

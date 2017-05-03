@@ -8,15 +8,20 @@
 	<script type="text/javascript" src="../js/jquery.js" ></script>
 	<script type="text/javascript" src="../js/swiper.js" ></script>
 	<script type="text/javascript" src="../js/common.js" ></script>
+	<script type="text/javascript" src="../js/iscroll.js" ></script>
 	<link rel="stylesheet" href="../css/swiper.min.css" />
 	<link rel="stylesheet" href="../css/common.css" />
 	<link rel="stylesheet" href="../css/zhc-cptj.css" />
 	<body>
-		<header>
+		<header id="header">
 			<div><a href=""><img src="../img/zhc/images/zhc-icon.png"></a></div>
 			<div><input type="search" placeholder="搜索菜名或食材"></div>
 			<div><a href=""><img src="../img/zhc/images/zhc-icon1.png"></a></div>
 		</header>
+		<main id="wrapper">
+			<section class="zhc-rongqi">
+				
+			
 		<!--banner开始-->
 		<div class="swiper-container">
 	        <div class="swiper-wrapper">
@@ -248,7 +253,7 @@
 	    </section>
 	    <section class="zhc-tiao"></section>
 	    <!--猜您喜欢-->
-	    <section class="zhc-cnxh">
+	   <section class="zhc-cnxh">
 	    	<div class="zhc-fbcnxh">
 				<img src="../img/zhc/images/zhc-cnxh1_73.png">
 				<a href="">更多&nbsp;<span>&gt;</span></a>
@@ -300,5 +305,17 @@
 					</ul>
 			</section>
 	    </section>
+	</section>
+	</main>
+	<footer id="footer"></footer>
 	</body>
 </html>
+<script type="text/javascript">
+	var	myScroll = new IScroll('#wrapper', {
+			scrollbars: 'custom',//是否显示为默认的滚动条
+			mouseWheel: true,
+			scrollX:true,
+			shrinkScrollbars: 'scale',
+			fadeScrollbars: true,
+	});
+</script>
