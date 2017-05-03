@@ -9,6 +9,7 @@
 	<script type="text/javascript" src="../js/swiper.js" ></script>
 	<script type="text/javascript" src="../js/common.js" ></script>
 	<script type="text/javascript" src="../js/iscroll.js" ></script>
+	<script type="text/javascript" src="../js/zhc-cptj.js" ></script>
 	<link rel="stylesheet" href="../css/swiper.min.css" />
 	<link rel="stylesheet" href="../css/common.css" />
 	<link rel="stylesheet" href="../css/zhc-cptj.css" />
@@ -307,8 +308,23 @@
 	    </section>
 	</section>
 	</main>
-	<footer id="footer"></footer>
+	<!-- 底部 -->
+	<div class="zl-footer" id="zhc-footer">
+		<div class="zl-shouye"></div>
+		<div class="zl-dl"></div>
+		<div class="zl-tuijian"></div>
+	</div>
+	<!-- 底部点击元素 -->
+	<div class="zl-zao">
+		<div class="zl-yuandi">
+			<div class="zl-close"></div>
+			<div class="zl-meishi"></div>
+			<div class="zl-fatie"></div>
+			<div class="zl-chuancai"></div>
+		</div>
+	</div>
 <script type="text/javascript">
+	window.onload=function(){
 	var	myScroll = new IScroll('#wrapper', {
 			scrollbars: 'custom',//是否显示为默认的滚动条
 			mouseWheel: true,
@@ -316,6 +332,7 @@
 			shrinkScrollbars: 'scale',
 			fadeScrollbars: true,
 	});
+	};
 </script>
 	</body>
 </html>

@@ -7,14 +7,26 @@ $(document).ready(function(){
 	
 	$('.zhc-list').each(function(index,val){
 		console.log(index,val)
-		$('.zhc-list li',val).on('touchend',function(){
+		$('li',val).on('touchend',function(){
 			$(this).addClass('active').siblings().removeClass()
+			
+//			当前点击的li里的文字内容
+			let texts=$(this).text()
+//			创建li 并设置文字内容
+			$('.zhc-yx').append(`<li><span>${texts}</span><p>×</p></li>`)
 		})
 	})
 	
-	$('.zhc-yx li p').each(function(val,index){
-		$(this).on('touchend',function(){
-			$(this).parent().remove()
-		})
+	$('.zhc-yx').delegate('p','touchend',function(){
+		$(this).parent().remove()
+	})
+	
+//	清空筛选
+	$('.zhc-qk').on('touchend',function(){
+		$('.zhc-yx li').remove().children()
+	})
+	
+	$('.zhc-end div').on('touchend',function(){
+		$(this).addClass('active').siblings().removeClass('active')
 	})
 })

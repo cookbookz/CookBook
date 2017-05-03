@@ -9,7 +9,7 @@ html,body{
 	position: absolute;
 	z-index: 1;
 	top: 0.88rem;
-	bottom: 1.1rem;
+	bottom: 1.36rem;
 	left: 0;
 	width: 100%;
 	background: #fff;
@@ -706,11 +706,148 @@ header div:nth-child(2) input{
 }
 
 
-#footer{
-	width: 100%;
-	height: 1.1rem;
+/*底部*/
+div.zl-footer{
+	/*display: none;*/
+	position:absolute;
+	left:0;
+	width:100%;
+	height:1.36rem;
+	bottom:0;
+	z-index: 10;
+	background:rgb(255,255,255) url(../img/zl/index3_02.png) no-repeat center;
+	background-size:auto 100%;
+}
+div.zl-shouye{
 	position: absolute;
-	bottom: 0;
-	left: 0;
-	background: red;
+	left:50%;
+	bottom:0;
+	height:0.9rem;
+	width:1.36rem;
+	margin-left:-3rem;
+	background:url(../img/zl/index2_22.png) no-repeat center;
+	background-size: auto 100%;
+}
+div.zl-dl{
+	position: absolute;
+	left:50%;
+	bottom:0;
+	height:1.36rem;
+	width:1.36rem;
+	margin-left:-0.68rem;
+}
+div.zl-tuijian{
+	position: absolute;
+	right:50%;
+	bottom:0;
+	z-index: 2;
+	height:0.9rem;
+	width:1.36rem;
+	margin-right:-3rem;
+	background:url(../img/zl/index2_24.png) no-repeat center;
+	background-size: auto 100%;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+/*底部按钮们*/
+div.zl-zao{
+	width:100%;
+	/*height:100%;*/
+	height:0;
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index: 666;
+	overflow: hidden;
+	transition:height 0.2s;
+}
+div.zl-yuandi{
+	width:3.5rem;
+	height:3.5rem;
+	position: absolute;
+	bottom:0;
+	left:50%;
+	margin-left:-1.75rem;
+	margin-bottom:-2rem;
+	background:rgb(255,255,255);
+	border-radius: 50%;
+	transition:all 0.2s;
+}
+
+div.zl-close{
+	width:0.82rem;
+	height:0.82rem;
+	position: absolute;
+	top:0;
+	left:50%;
+	z-index: 6;
+	margin-left:-0.41rem;
+	margin-top:0.43rem;
+	border-radius: 50%;
+	background:url(../img/zl/click_13.png) no-repeat center;
+	background-size:100%;
+}
+div.zl-meishi,div.zl-fatie{
+	width:0.82rem;
+	height:0.82rem;
+	position: absolute;
+	top:0;
+	left:50%;
+	margin-left:-0.41rem;
+	margin-top:0.6rem;
+	border-radius: 50%;
+	background:rgb(251,230,48);
+}
+div.zl-chuancai{
+	width:0.82rem;
+	height:0.82rem;
+	position: absolute;
+	top:0;
+	right:50%;
+	margin-right:-0.41rem;
+	margin-top:0.6rem;
+	border-radius: 50%;
+	background:rgb(251,230,48);
+}
+div.zl-show >div.zl-meishi{
+	width:1.14rem;
+	height:1.14rem;
+	position: absolute;
+	top:0;
+	left:50%;
+	margin-left:-2.47rem;
+	margin-top:-0.8rem;
+	border-radius: 50%;
+	background:url(../img/zl/click_06.png) no-repeat center;
+	background-size:100%;
+	transition:all 0.2s;
+}
+div.zl-show >div.zl-fatie{
+	width:1.14rem;
+	height:1.14rem;
+	position: absolute;
+	top:0;
+	left:50%;
+	margin-left:-0.57rem;
+	margin-top:-1.8rem;
+	border-radius: 50%;
+	background:url(../img/zl/click_03.png) no-repeat center;
+	background-size:100%;
+	transition:all 0.2s;
+}
+div.zl-show >div.zl-chuancai{
+	width:1.14rem;
+	height:1.14rem;
+	position: absolute;
+	top:0;
+	right:50%;
+	margin-right:-2.47rem;
+	margin-top:-0.8rem;
+	border-radius: 50%;
+	background:url(../img/zl/click_09.png) no-repeat center;
+	background-size:100%;
+	transition:all 0.2s;
 }
