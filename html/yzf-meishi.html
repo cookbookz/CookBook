@@ -8,7 +8,6 @@
 		<link rel="stylesheet" href="../css/yzf-meishi.css" />
 		<script src="../js/common.js"></script> 
 		<script src="../js/jquery.js"></script>
-		<!--<script src="../js/zepto.js"></script>-->
 		<script src="../js/swiper.js"></script>
 		<script src="../js/iscroll.js"></script>
 		<style>
@@ -29,7 +28,7 @@
 			}
 		</style>
 	</head>
-	<body onload="loaded()>
+	<body onload="loaded()">
 		<div class="yzf-nav">
 			<div class="box-nav">
 				<img src="../img/yzf/icon-01.png" alt="" />
@@ -155,18 +154,18 @@
 				</div>
 			</div>
 		</div>
+	<script>
+	var myScroll;
+	function loaded () {
+	    myScroll = new IScroll('#wrapper', {
+	        scrollbars: true,
+	        mouseWheel: true,
+	        interactiveScrollbars: true,
+	        shrinkScrollbars: 'scale',
+	        fadeScrollbars: true,
+	       	click:true,
+	    });
+	}
+	</script>
 	</body>
 </html>
-<script>
-var myScroll;
-function loaded () {
-    myScroll = new IScroll('#wrapper', {
-        scrollbars: true,
-        mouseWheel: true,
-        interactiveScrollbars: true,
-        shrinkScrollbars: 'scale',
-        fadeScrollbars: true,
-       	click:true,
-    });
-}
-</script>

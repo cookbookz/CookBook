@@ -150,11 +150,13 @@
 	overflow: hidden;
 }
 .yzf-box2 img:first-child{
+	width:2.2rem;
 	display: block;
 	float:left;
 	margin-left:0.45rem;
 }
 .yzf-box2 img:nth-child(2){
+	width:2.2rem;
 	display: block;
 	float:right;
 	margin-left:0.45rem;
