@@ -11,6 +11,7 @@
 		<script src="../js/zepto.js"></script>
 		<script src="../js/swiper.js"></script>
 		<script src="../js/iscroll.js"></script>
+		<script src="../js/yzf-friend.js"></script>
 		<style>
 			#wrapper {
 				position: absolute;
@@ -29,7 +30,7 @@
 			}
 		</style>
 	</head>
-	<body>
+	<body onload="loaded()">
 			<div class="yzf-nav">
 				<div class="yzf-box">
 					<img src="../img/yzf/icon-01.png" alt="" />
@@ -48,129 +49,159 @@
 			</div>
 			<div id="wrapper">
 				<div class="mo"  id='scroller'>
-			<!--内容-->
-			<ul class="bb">
-				<li>
-					<img src="../img/yzf/friend_05.png" alt="" />
-					<h5>越单纯越幸福</h5>
-					<div class="font">
-						<span>帖子</span>
-						<span>2288</span>
-						<span>菜谱</span>
-						<span>588</span>
-					</div>
-					<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
-					<div class="del">
-						<img src="../img/yzf/friend_17.png"/>
-						<img src="../img/yzf/friend_19.png" alt="" />
-					</div>
-				</li>
-				<li>
-					<img src="../img/yzf/friend_13.png" alt="" />
-					<h5>时来运转</h5>
-					<div class="font">
-						<span>帖子</span>
-						<span>2288</span>
-						<span>菜谱</span>
-						<span>588</span>
-					</div>
-					<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
-					<div class="del">
-						<img src="../img/yzf/friend_17.png"/>
-						<img src="../img/yzf/friend_19.png" alt="" />
-					</div>
-				</li>
-				<li>
-					<img src="../img/yzf/friend_05.png" alt="" />
-					<h5>味之源</h5>
-					<div class="font">
-						<span>帖子</span>
-						<span>2288</span>
-						<span>菜谱</span>
-						<span>588</span>
-					</div>
-					<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
-					<div class="del">
-						<img src="../img/yzf/friend_17.png"/>
-						<img src="../img/yzf/friend_19.png" alt="" />
-					</div>
-				</li>
-				<li>
-					<img src="../img/yzf/friend_24.png" alt="" />
-					<h5>铁男</h5>
-					<div class="font">
-						<span>帖子</span>
-						<span>2288</span>
-						<span>菜谱</span>
-						<span>588</span>
-					</div>
-					<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
-					<div class="del">
-						<img src="../img/yzf/friend_17.png"/>
-						<img src="../img/yzf/friend_19.png" alt="" />
-					</div>
-				</li>
-				<li>
-					<img src="../img/yzf/friend_27.png" alt="" />
-					<h5>牵绊~洋洋</h5>
-					<div class="font">
-						<span>帖子</span>
-						<span>2288</span>
-						<span>菜谱</span>
-						<span>588</span>
-					</div>
-					<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
-					<div class="del">
-						<img src="../img/yzf/friend_17.png"/>
-						<img src="../img/yzf/friend_19.png" alt="" />
-					</div>
-				</li>
-				<li>
-					<img src="../img/yzf/friend_30.png" alt="" />
-					<h5>大显显</h5>
-					<div class="font">
-						<span>帖子</span>
-						<span>2288</span>
-						<span>菜谱</span>
-						<span>588</span>
-					</div>
-					<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
-					<div class="del">
-						<img src="../img/yzf/friend_17.png"/>
-						<img src="../img/yzf/friend_19.png" alt="" />
-					</div>
-				</li>
-				<li>
-					<img src="../img/yzf/friend_05.png" alt="" />
-					<h5>食亿</h5>
-					<div class="font">
-						<span>帖子</span>
-						<span>2288</span>
-						<span>菜谱</span>
-						<span>588</span>
-					</div>
-					<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
-					<div class="del">
-						<img src="../img/yzf/friend_17.png"/>
-						<img src="../img/yzf/friend_19.png" alt="" />
-					</div>
-				</li>
-				<li>
-					<img src="../img/yzf/friend_05.png" alt="" />
-					<h5>越单纯越幸福</h5>
-					<div class="font">
-						<span>帖子</span>
-						<span>2288</span>
-						<span>菜谱</span>
-						<span>588</span>
-					</div>
-					<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
-					<div class="del">
-						<img src="../img/yzf/friend_17.png"/>
-						<img src="../img/yzf/friend_19.png" alt="" />
-					</div>
-				</li>
-			</ul>
+					<!--内容-->
+					<ul class="bb">
+						<li>
+							<img src="../img/yzf/friend_05.png" alt="" />
+							<h5>越单纯越幸福</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_13.png" alt="" />
+							<h5>时来运转</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_05.png" alt="" />
+							<h5>味之源</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_24.png" alt="" />
+							<h5>铁男</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_27.png" alt="" />
+							<h5>牵绊~洋洋</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_30.png" alt="" />
+							<h5>大显显</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_05.png" alt="" />
+							<h5>食亿</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_05.png" alt="" />
+							<h5>越单纯越幸福</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_05.png" alt="" />
+							<h5>越单纯越幸福</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_05.png" alt="" />
+							<h5>越单纯越幸福</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+					</ul>
 			</div>
 		</div>
 			<script>

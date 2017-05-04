@@ -5,6 +5,7 @@
 	position:absolute;
 	top: 0;
 	left: 0;
+	z-index:1000;
 }
 .yzf-box{
 	width:100%;
@@ -50,6 +51,7 @@
 	left:0.3rem;
 	text-align: center;
 	line-height:0.45rem;
+	color:#ffdc3b;
 }
 .yzf-box2 > a:nth-child(2){
 	display: block;
@@ -62,6 +64,7 @@
 	right:0.3rem;
 	text-align: center;
 	line-height:0.45rem;
+	color:#fff;
 }
 .yzf-box2 > img{
 	width:0.16rem;
