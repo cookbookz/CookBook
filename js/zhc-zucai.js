@@ -1,5 +1,9 @@
 $(document).ready(function(){
 	
+	$('.zhc-zcheader img').first().on('touchend',function(){
+		window.history.back();
+	})
+	
 	$('article').each(function(index,val){
 		$('ul li',val).on('touchend',function(){
 			$(this).children('div').toggle();
@@ -15,4 +19,5 @@ $(document).ready(function(){
 	$('.zhc-onebian ul').delegate('p','touchend',function(){
 		$(this).parent().remove()
 	})
+	
 })

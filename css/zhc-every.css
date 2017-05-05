@@ -144,6 +144,9 @@
 	width: 0.2rem;
 	height: 0.2rem;
 }
+.zhc-everylist .zhc-evli .zhc-everyr ul li:first-child img.active{
+	display: none;
+}
 .zhc-everylist .zhc-evli .zhc-everyr ul li:last-child{
 	padding-left: 0.4rem;
 	box-sizing: border-box;
