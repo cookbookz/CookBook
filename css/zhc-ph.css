@@ -1,3 +1,8 @@
+body{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
 .zhc-pheader{
 	height: 0.88rem;
 	width: 100%;
@@ -6,18 +11,33 @@
 	display: flex;
 	justify-content: space-between;
 	background: #ffdc3b;
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 .zhc-pheader img{
 	height: 100%;
 	width: auto;
 }
 
+
+
+#zhc-wrapper{
+	height: 12.46rem;
+	width: 100%;
+	position:absolute;
+	top: 0.88rem;
+	bottom: 0;
+	overflow: hidden;
+	background: #fff;
+}
 main{
 	width: 100%;
 	height: auto;
 	padding: 0 0.24rem;
 	box-sizing: border-box;
 	margin-top: 0.24rem;
+	padding-bottom: 1rem;
 }
 .zhc-phmain{
 	width: 100%;

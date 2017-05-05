@@ -1,4 +1,9 @@
 $(document).ready(function(){
+	
+	$('.zhc-zcheader img').first().on('touchend',function(){
+		window.history.back();
+	})
+	
 	$('.zhc-zcheader img').last().on('touchstart',function(){
 		$('body').addClass('.zhebox')
 		$('html').addClass('.zhebox')
@@ -24,6 +29,10 @@ $(document).ready(function(){
 //	清空筛选
 	$('.zhc-qk').on('touchend',function(){
 		$('.zhc-yx li').remove().children()
+	})
+//	完成
+	$('.zhc-ends').on('touchend',function(){
+		$('.zhc-zhe').css('display','none')
 	})
 	
 	$('.zhc-end div').on('touchend',function(){

@@ -5,18 +5,23 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title></title>
 	</head>
+	<script type="text/javascript" src="../js/jquery.js" ></script>
+	<script src="../js/iscroll.js"></script>
 	<script type="text/javascript" src="../js/common.js" ></script>
+	<script src="../js/zhc-ph.js"></script>
 	<link rel="stylesheet" href="../css/common.css" />
 	<link rel="stylesheet" href="../css/zhc-ph.css" />
 	<body>
-		<header class="zhc-pheader">
+		<header class="zhc-pheader" id="zhc-header">
 			<img src="../img/zhc/images/zhc-ph_03.png">
 			<img src="../img/zhc/images/zhc-ph_05.png" />
 			<img src="../img/zhc/images/zhc-ph_07.png">
 		</header>
+		<section id="zhc-wrapper">
+			<section>
 		<main>
 			<section class="zhc-phmain">
-				<a href="">
+				<a href="javascript:;">
 					<div class="zhc-cnxhtop">
 						<div class="zhc-cnxhl">
 							<img src="../img/zhc/images/sanhuangji1_81.png" />
@@ -63,7 +68,7 @@
 					</ul>
 			</section>
 			<section class="zhc-phmain">
-				<a href="">
+				<a href="javascript:;">
 					<div class="zhc-cnxhtop">
 						<div class="zhc-cnxhl">
 							<img src="../img/zhc/images/zhc-meishi_16.png" />
@@ -110,7 +115,7 @@
 					</ul>
 			</section>
 			<section class="zhc-phmain">
-				<a href="">
+				<a href="javascript:;">
 					<div class="zhc-cnxhtop">
 						<div class="zhc-cnxhl">
 							<img src="../img/zhc/images/zhc-meishi_24.png" />
@@ -157,7 +162,7 @@
 					</ul>
 			</section>
 			<section class="zhc-phmain">
-				<a href="">
+				<a href="javascript:;">
 					<div class="zhc-cnxhtop">
 						<div class="zhc-cnxhl">
 							<img src="../img/zhc/images/zhc-meishi_26.png" />
@@ -204,7 +209,7 @@
 					</ul>
 			</section>
 			<section class="zhc-phmain">
-				<a href="">
+				<a href="javascript:;">
 					<div class="zhc-cnxhtop">
 						<div class="zhc-cnxhl">
 							<img src="../img/zhc/images/zhc-meishi_28.png" />
@@ -251,7 +256,7 @@
 					</ul>
 			</section>
 			<section class="zhc-phmain">
-				<a href="">
+				<a href="javascript:;">
 					<div class="zhc-cnxhtop">
 						<div class="zhc-cnxhl">
 							<img src="../img/zhc/images/zhc-meishi_16.png" />
@@ -298,5 +303,20 @@
 					</ul>
 			</section>
 		</main>
+			</section>
+		
+		<script type="text/javascript">
+			window.onload=function(){
+				
+				var	myScroll = new IScroll('#zhc-wrapper', {
+						scrollbars: false,//是否显示为默认的滚动条
+						mouseWheel: true,
+						scrollX:true,
+						shrinkScrollbars: 'scale',
+						fadeScrollbars: true,
+						click:true
+				});
+			}
+		</script></section>
 	</body>
 </html>

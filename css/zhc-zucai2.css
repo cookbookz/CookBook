@@ -12,11 +12,11 @@ body{
 	top: 0;
 }
 #zhc-wrapper{
-	height: 9.12rem;
+	height: 11.22rem;
 	width: 100%;
 	position:absolute;
 	top: 2.12rem;
-	bottom: 2.1rem;
+	bottom: 0;
 	overflow: hidden;
 	background: #fff;
 }

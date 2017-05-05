@@ -725,8 +725,13 @@ div.zl-shouye{
 	height:0.9rem;
 	width:1.36rem;
 	margin-left:-3rem;
-	background:url(../img/zl/index2_22.png) no-repeat center;
+	background:url(../img/zhc/images/zhc-shouye_03.png) no-repeat center;
 	background-size: auto 100%;
+}
+div.zl-shouye a{
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 div.zl-dl{
 	position: absolute;
@@ -744,8 +749,13 @@ div.zl-tuijian{
 	height:0.9rem;
 	width:1.36rem;
 	margin-right:-3rem;
-	background:url(../img/zl/index2_24.png) no-repeat center;
+	background:url(../img/zhc/images/zhc-tj1_05.png) no-repeat center;
 	background-size: auto 100%;
+}
+div.zl-tuijian a{
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 html,body{
 	width:100%;
