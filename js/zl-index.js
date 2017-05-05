@@ -77,11 +77,17 @@ $(function(){
 	// 	$('body').css('transform','rotateY(45deg)')
 	// })
 	// var body=document.querySelector('body');
-	// var hammertime = new Hammer(document.querySelector(".zl-menu"));
- //       //为该dom元素指定触屏移动事件
- //       hammertime.on("swiperight", function () {
- //           //控制台输出
- //            console.log(1111);
- //            body.style.transform='rotateY(45deg)';
- //        });
+       
+ 	$('.zl-menu').on('touchstart',function(){
+ 		$('.zl-you').css({'left':'5.8rem','transform':'rotateY(-30deg)'})
+ 		$('.zl-zuo').css('left','0')
+ 	})
+	var hammertime = new Hammer(document.querySelector(".zl-zuo"));
+	//为该dom元素指定触屏移动事件
+	hammertime.on("swipeleft", function () {
+	//控制台输出
+		$('.zl-you').css({'left':'0','transform':'rotateY(0deg)'})
+ 		$('.zl-zuo').css('left','-5.8rem')
+	
+	});
 })
