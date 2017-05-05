@@ -184,8 +184,8 @@ body, html {
 .ly-ljzc .messagebox .message .ly-del {
   width: 0.27rem;
   height: 0.38rem;
-  float: left;
-  margin-left: 0.52rem;
+  
+  margin-left: 4.52rem;
 }
 
 .ly-ljzc .messagebox .message .ly-del > img {
@@ -207,9 +207,9 @@ body, html {
 .ly-ljzc .messagebox .message .ck {
   width: 0.26rem;
   height: 0.2rem;
-  float: left;
-  line-height: 0.38rem;
-  margin-left: 0.5rem;
+  /*float: left;*/
+  line-height: 0.4rem;
+  margin-left: 4.52rem;
 }
 
 .ly-ljzc .messagebox .message .ck img {
@@ -244,4 +244,20 @@ body, html {
 .ly-ljzc .messagebox .ly-xian img {
   width: 100%;
   height: 100%;
+}
+.ly-yc{
+	display:none;
+}
+#password-error{
+	color:red;
+	margin-left:1.1rem;
+	margin-top:0.1rem;
+	float:left;
+}
+
+#email-error{
+	color:red;
+	margin-left:1.1rem;
+	margin-top:0.1rem;
+	float:left;
 }

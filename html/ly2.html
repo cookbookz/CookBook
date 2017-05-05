@@ -12,10 +12,10 @@
 		<title></title>
 	</head>
 	<body>
-		<div class='zc'></div>
+		<div class='zc ly-yc'></div>
 		<div class="ly-zc">
-		<div class='ly-zccg'><img src="../img/ly/ly-zccg.png" alt="" /></div>
-		<a href="javascript:;"><img src="../img/ly/ly-godenglu.png" alt="" /></a>
+		<div class='ly-zccg ly-yc'><img src="../img/ly/ly-zccg.png" alt="" /></div>
+		<a href="javascript:;" class='ly-yc'><img src="../img/ly/ly-godenglu.png" alt="" /></a>
 			<div class='top'>
 				<a href="javascript:;"><img src="../img/ly/ly-return.png" alt=""/></a>
 				<img src="../img/ly/ly-title.png" alt=""/>
@@ -26,31 +26,32 @@
 			<div class='sjr'></div>
 			<div class='ly-sjzc'>手机</div>
 			<div class='ly-yxzc'>邮箱</div>
-			<div class='messagebox'>
+			<form class='messagebox' id='aa'>
 				 <div class='message'>
 					<div class='ly-sjh'><img src="../img/ly/yh.png" alt="" /></div>
-					<input type="text" placeholder="请输入你的手机号"/>
+					<input name='telephone' type="text" placeholder="请输入你的手机号"/>
 				</div>
 				<div class='ly-xian'><img src="../img/ly/ly-bmx.png" alt="" /></div>
 				<div class='message'>
 					<div class='ly-sjh'><img src="../img/ly/mm.png" alt="" /></div>
-					<input type="text" placeholder="请设置你的密码"/>
+					<input name='password'  id="password" type="password" placeholder="请设置你的密码"/>
 					<div class='ck'><img src="../img/ly/ck.png" alt="" /></div>
 				</div>
 				<div class='ly-xian'><img src="../img/ly/ly-bmx.png" alt="" /></div>
 				<div class='message'>
 					<div class='ly-sjh'><img src="../img/ly/mm.png" alt="" /></div>
-					<input type="text" placeholder="再次输入你的密码"/>
+					<input name='confirm_password' type="password" placeholder="再次输入你的密码"/>
 					<div class='ck'><img src="../img/ly/ck.png" alt="" /></div>
 				</div>
 				<div class='ly-xian'><img src="../img/ly/ly-bmx.png" alt="" /></div>
 				<div class='message'>
 					<div class='ly-sjh'><img src="../img/ly/yzm.png" alt="" /></div>
-					<input type="text" placeholder="请输入手机验证码"/>
+					<input type="text" name='yanzheng' id='yanzheng' placeholder="请输入手机验证码"/>
+					<!--<div class="ly-yz ly-yc">验证码错误！</div>-->
 					<a href="javascript:;"><img src="../img/ly/hqyzm.png" alt="" /></a>
 				</div>
 				<div class='ly-xian'><img src="../img/ly/ly-bmx.png" alt="" /></div>
-			</div>
+			</form>
 			<a href="javascript:;"><img src="../img/ly/zhuce.png/" alt="" /></a>
 		</div>
 	</body>
