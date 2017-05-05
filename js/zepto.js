@@ -1,5 +1,5 @@
 //     Zepto.js
-//     (c) 2010-2017 Thomas Fuchs
+//     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
 
 var Zepto = (function() {
@@ -25,6 +25,7 @@ var Zepto = (function() {
       'td': tableRow, 'th': tableRow,
       '*': document.createElement('div')
     },
+    readyRE = /complete|loaded|interactive/,
     simpleSelectorRE = /^[\w-]*$/,
     class2type = {},
     toString = class2type.toString,
@@ -436,19 +437,10 @@ var Zepto = (function() {
     },
 
     ready: function(callback){
-      // don't use "interactive" on IE <= 10 (it can fired premature)
-      if (document.readyState === "complete" ||
-          (document.readyState !== "loading" && !document.documentElement.doScroll))
-        setTimeout(function(){ callback($) }, 0)
-      else {
-        var handler = function() {
-          document.removeEventListener("DOMContentLoaded", handler, false)
-          window.removeEventListener("load", handler, false)
-          callback($)
-        }
-        document.addEventListener("DOMContentLoaded", handler, false)
-        window.addEventListener("load", handler, false)
-      }
+      // need to check if document.body exists for IE as that browser reports
+      // document ready when it hasn't yet created the body element
+      if (readyRE.test(document.readyState) && document.body) callback($)
+      else document.addEventListener('DOMContentLoaded', function(){ callback($) }, false)
       return this
     },
     get: function(idx){

@@ -1,0 +1,510 @@
+body{
+	/*height:50rem;*/
+	background:#f8f8f8;
+}
+/*#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+}*/
+.yzf-nav{
+	width:100%;
+	height:0.88rem;
+	background: #ffdc3b;
+	position:absolute;
+	top:0;
+	left: 0;
+	z-index:1000;
+}
+.yzf-nav img:first-child{
+	display: block;
+	float: left;
+	width: 0.16rem;
+	height: 0.28rem;
+	margin:0.3rem auto 0.3rem 0.32rem;
+}
+.yzf-nav img:nth-child(2){
+	display: block;
+	float: left;
+	width: 2.5rem;
+	height: 0.6rem;
+	margin: 0.14rem auto 0.14rem 2rem;
+}
+.yzf-nav img:nth-child(3){
+	display: block;
+	float: right;
+	width: 0.5rem;
+	height: 0.2rem;
+	margin:0.34rem 0.34rem 0.34rem auto;
+}
+/*内容*/
+.yzf-box{
+	background: #fff;
+}
+.yzf-box1{
+	width:7rem;
+	height:3.33rem;
+	margin:0 auto;
+	box-shadow: 5px;
+	margin-top:1rem;
+}
+.yzf-box1 .photo1{
+	width:2.8rem;
+	height:3rem;
+	margin-top: 0.15rem;
+	margin-left: 0.1rem;
+	float:left;
+}
+.yzf-box2{
+	width:0.47rem;
+	height:0.47rem;
+	border-radius:50%;
+	background:blue;
+	float:left;
+	margin:0.35rem auto auto 0.2rem;
+}
+h5{
+	float:left;
+	margin-top:0.3rem;
+	margin-left:0.2rem;
+	font-size:0.24rem;
+}
+h6{
+	float:left;
+	margin-left:0.2rem;
+	font-size:0.2rem;
+}
+.yzf-box3{
+	width:0.66rem;
+	height:0.25rem;
+	background:#ffe157;
+	float:left;
+	margin-left:3.2rem;
+	margin-top:0.2rem;
+	border-radius:5px;
+	font-size:0.2rem;
+	color:#fff;
+	line-height:0.25rem;
+}
+.yzf-box1 span{
+	display: block;
+	width:3.6rem;
+	height:1rem;
+	float:left;
+	margin-top:0.2rem;
+	margin-left:0.3rem;
+	color:#bfbfbf;
+	font-size:0.22rem;
+}
+.yzf-font2{
+	float:left;
+	width:auto;
+	height:0.2rem;
+	margin-top:0.4rem;
+	margin-left:0.3rem;
+}
+.yzf-font3{
+	width:0.3rem;
+	height:0.2rem;
+	float: left;
+}
+.yzf-font2 p{
+	display: block;
+	font-family: "Tahoma";
+	font-size:0.22rem;
+	float: left;
+	margin-left:0.3rem;
+	margin-top: -0.05rem;
+}
+.yzf-font4{
+	width:0.3rem;
+	height:0.2rem;
+	float: left;
+	margin-left:0.3rem;
+	line-height: 0.2rem;
+}
+/*食材料理*/
+.yzf-shicai{
+	width:3.3rem;
+	height:1rem;
+	margin: 0 auto;
+	margin-top: 0.55rem;
+	background:#fff;
+}
+.yzf-shicai img{
+	width:3.3rem;
+	height:1rem;	
+}
+.yzf-list{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.yzf-list li{
+	width:100%;
+	height:0.7rem;
+	float:left;
+	line-height: 0.7rem;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.yzf-list li:first-child span{
+	color: #FFFFFF;
+	font-size:0.24rem;
+	display: block;
+	float: left;
+	margin-left:0.67rem;
+}
+.yzf-list li:first-child p{
+	color: #FFFFFF;
+	font-size:0.18rem;
+	display: block;
+	float: left;
+}
+.yzf-list li:first-child{
+	background: #ffe157;
+	line-height: 0.7rem;
+}
+.yzf-list li:first-child span:nth-child(1){
+	color: #FFFFFF;
+	font-size:0.24rem;
+	display: block;
+	float: left;
+	margin-left:0.67rem;
+}
+.yzf-list li:first-child span:nth-child(2){
+	color: #FFFFFF;
+	font-size:0.18rem;
+	display: block;
+	float: left;
+}
+.yzf-list li:nth-child(3){
+	background: #ffe157;
+	line-height: 0.7rem;
+}
+.yzf-list li:nth-child(3) span:nth-child(1){
+	color: #FFFFFF;
+	font-size:0.24rem;
+	display: block;
+	float: left;
+	margin-left:0.67rem;
+}
+.yzf-list li:nth-child(3) span:nth-child(2){
+	color: #FFFFFF;
+	font-size:0.18rem;
+	display: block;
+	float: left;
+	margin-left:0.67rem;
+}
+.yzf-list li span:first-child{
+	color: #000;
+	font-size:0.24rem;
+	display: block;
+	float: left;
+	margin-left:0.67rem;
+}
+.yzf-list li span:nth-child(2){
+	color: red;
+	font-size:0.18rem;
+	display: block;
+	float: right;
+	margin-right:0.67rem;
+}
+.yzf-box5{
+	width:80%;
+	height:0.32rem;
+	margin-left:0.8rem;
+	border-radius: 5px;
+	float:left;
+	display: flex;
+	justify-content: space-around;
+	color:#fff;
+}
+.yzf-box5 span:first-child{
+	display: block;
+	width:1.05rem;
+	height:0.32rem;
+	border-radius:10px;
+	background: #fb7070;
+	float:left;
+	text-align: center;
+	line-height:0.28rem ;
+}
+.yzf-box5 span:nth-child(2){
+	display: block;
+	width:1.05rem;
+	height:0.32rem;
+	border-radius:10px;
+	background: #ffe157;
+	float:left;
+	text-align: center;
+	line-height:0.28rem ;
+}
+.yzf-box5 span:nth-child(3){
+	display: block;
+	width:1.05rem;
+	height:0.32rem;
+	border-radius:10px;
+	background: #4088ff;
+	float:left;
+	text-align: center;
+	line-height:0.28rem ;
+}
+/*美食做法*/
+.yzf-box4{
+	background:#fff;
+	width:7rem;
+	height:auto;
+	margin:0 auto;
+	overflow: hidden;
+	margin-top:0.3rem;
+	padding-bottom: 0.6rem;
+}
+.yzf-box4 > li:first-child{
+	width:100%;
+	height:1.13rem;
+	float:left;
+	line-height:1.13rem;
+	float:left;
+}
+.yzf-box4 > li:first-child > span{
+	width:auto;
+	height:auto;
+	display: block;
+	margin-left:0.3rem;
+	float:left;
+}
+.yzf-box4 > li:first-child > img{
+	width:3.15rem;
+	height:1.13rem;
+	float:right;
+}
+.yzf-box4 > li:nth-child(2){
+	width:100%;
+	height:1.65rem;
+	float:left;
+	line-height:1.65rem;
+	float:left;
+}
+.yzf-box4 > li:nth-child(2) > span{
+	width:auto;
+	height:auto;
+	display: block;
+	margin-left:0.3rem;
+	float:left;
+}
+.yzf-box4 > li:nth-child(2) > img{
+	width:3.5rem;
+	height:1.65rem;
+	float:right;
+}
+.yzf-box4 > li:nth-child(3){
+	width:100%;
+	height:2.3rem;
+	float:left;
+	line-height:2.3rem;
+	float:left;
+}
+.yzf-box4 > li:nth-child(3) > span{
+	width:auto;
+	height:1.65rem;
+	display: block;
+	margin-left:0.3rem;
+	float:left;
+}
+.yzf-box4 > li:nth-child(3) > img{
+	width:4.15rem;
+	height:2.3rem;
+	float:right;
+}
+.yzf-box4 > li:nth-child(4){
+	width:100%;
+	height:1.7rem;
+	float:left;
+	line-height:1.7rem;
+	float:left;
+}
+.yzf-box4 > li:nth-child(4) > span{
+	width:auto;
+	height:1.7rem;
+	display: block;
+	margin-left:0.3rem;
+	float:left;
+}
+.yzf-box4 > li:nth-child(4) > img{
+	width:3.52rem;
+	height:1.7rem;
+	float:right;
+}
+.yzf-box4 > li:nth-child(5){
+	width:100%;
+	height:1.08rem;
+	float:left;
+	line-height:1.08rem;
+	float:left;
+}
+.yzf-box4 > li:nth-child(5) > span{
+	width:auto;
+	height:1.08rem;
+	display: block;
+	margin-left:0.3rem;
+	float:left;
+}
+.yzf-box4 > li:nth-child(5) > img{
+	width:3.52rem;
+	height:1.08rem;
+	float:right;
+}
+
+/*步骤视频*/
+.yzf-box6{
+	background:#fff;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	padding-bottom: 0.5rem;;
+}
+.yzf-shipin{
+	width:7rem;
+	height:3.28rem;
+	margin:0 auto;
+}
+.yzf-shipin img{
+	width:7rem;
+	height:3.28rem;
+}
+.yzf-pengren{
+	width:100%;
+	height:2rem;
+	margin:0 auto;
+	text-align: center;
+	line-height: 3.28rem;
+}
+.yzf-pengren img{
+	width:2.8rem;
+	height:0.8rem;
+}
+.yzf-shiimg{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	text-align: center;
+}
+.yzf-shiimg img{
+	width:3.2rem;
+	height:0.9rem;
+}
+.yzf-font{
+	width:90%;
+	height:auto;
+	margin:0 auto;
+	line-height: 0.48rem;
+}
+.yzf-font h4 span{
+	color:#ffe157;
+	font-size:0.24rem;
+}
+.yzf-font h4{
+	color:#282828;
+	font-size:0.24rem;
+}
+/*评论*/
+.yzf-pinglun{
+	width:100%;
+	height:auto;
+	margin-top:0.2rem;
+	margin-left:0.2rem;
+}
+.yzf-pinglun img{
+	width:1.5rem;
+	height:0.65rem;
+}
+.yzf-man{
+	width:7rem;
+	height:1.7rem;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	margin:0 auto;
+}
+.photo{
+	width:0.48rem;
+	height:0.48rem;
+	border-radius: 50%;
+	background:red;
+	display: block;
+	margin-left:0.2rem;
+	margin-top:0.1rem;
+	float:left;
+}
+.yzf-man > span:nth-child(2){
+	color:#ffe157;
+	display: block;
+	float:left;
+	margin-left:0.2rem;
+}
+.yzf-man > span:nth-child(3){
+	color:#ffe157;
+	display: block;
+	float:left;
+	margin-left:0.2rem;
+}
+.yzf-man > span:nth-child(4){
+	width:80%;
+	color:#ffe157;
+	display: block;
+	float:left;
+	margin-left:0.2rem;
+}
+.yzf-man > span:nth-child(5){
+	width:90%;
+	display: block;
+	float:left;
+	margin-top:0.3rem;
+	margin-left:0.2rem;
+}
+.pinglun2{
+	width:1.6rem;
+	height:0.42rem;
+	border-radius:10px;
+	background: #ffe157;
+	line-height: 0.42rem;
+	text-align: center;
+	float:left;
+	margin-left:2rem;
+	margin-top:0.3rem;
+}
+.pinglun3{
+	width:1.6rem;
+	height:0.42rem;
+	border-radius:10px;
+	background: #4088ff;
+	line-height: 0.42rem;
+	text-align: center;
+	float:right;
+	margin-right:2rem;
+	margin-top:0.3rem;
+}
+
+/*菜谱推荐*/
+.yzf-box7{
+	width:100%;
+	height:auto;
+	background: #FFFFFF;
+}
+.yzf-caipu{
+	width:3.28rem;
+	height:0.84rem;
+	margin:0 auto;
+}
+.yzf-caipu img{
+	width:3.28rem;
+	height:0.84rem;
+}
