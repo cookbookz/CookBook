@@ -5,7 +5,7 @@ $(function(){
 
 
 		myScroll = new IScroll('#wrapper', { mousewheel:true,scrollbars:true,
-		fadeScrollbars:true, shrinkScrollbars:'scale'
+		fadeScrollbars:true, shrinkScrollbars:'scale',click:true
 
 
 		});

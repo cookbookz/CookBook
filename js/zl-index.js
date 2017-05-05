@@ -31,7 +31,7 @@ $(function(){
 
 
 		myScroll = new IScroll('#wrapper', { mousewheel:true,scrollbars:true,
-		fadeScrollbars:true, shrinkScrollbars:'scale'
+		fadeScrollbars:true, shrinkScrollbars:'scale',click:true
 
 
 		});
@@ -71,4 +71,17 @@ $(function(){
 		// location.href=''
 		location.href='zl-sousuo.html'
 	})
+// 侧滑
+	// $('.zl-god').swipeRight(function(){
+	// 	console.log('you')
+	// 	$('body').css('transform','rotateY(45deg)')
+	// })
+	// var body=document.querySelector('body');
+	// var hammertime = new Hammer(document.querySelector(".zl-menu"));
+ //       //为该dom元素指定触屏移动事件
+ //       hammertime.on("swiperight", function () {
+ //           //控制台输出
+ //            console.log(1111);
+ //            body.style.transform='rotateY(45deg)';
+ //        });
 })

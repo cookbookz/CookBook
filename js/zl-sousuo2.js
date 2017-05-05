@@ -15,7 +15,7 @@ $(function(){
 		var myScroll;
 
 
-		myScroll = new IScroll('#wrapper');
+		myScroll = new IScroll('#wrapper',{click:true});
 		// ,{ mousewheel:true,scrollbars:true,fadeScrollbars:true, shrinkScrollbars:'scale'}
 // 返回按钮
 	$('.zl-back').on('touchstart',function(){
