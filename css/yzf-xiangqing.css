@@ -8,26 +8,26 @@
 	left: 0;
 	z-index:1000;
 }
-.yzf-nav img:first-child{
+.yzf-nav .photo-one{
 	display: block;
 	float: left;
 	width: 0.16rem;
 	height: 0.28rem;
-	margin:0.3rem auto 0.3rem 0.32rem;
+	margin:0.4rem auto 0.3rem 0.32rem;
 }
-.yzf-nav img:nth-child(2){
+.yzf-nav .photo-two{
 	display: block;
 	float: left;
 	width: 2.5rem;
 	height: 0.7rem;
-	margin: 0.1rem auto 0.14rem 2rem;
+	margin: 0.2rem auto 0.14rem 2rem;
 }
-.yzf-nav img:nth-child(3){
+.yzf-nav .photo-three{
 	display: block;
 	float: right;
 	width: 0.5rem;
 	height: 0.2rem;
-	margin:0.3rem 0.34rem 0.34rem auto;
+	margin:0.4rem 0.34rem 0.34rem auto;
 }
 /*tudou*/
 
@@ -137,7 +137,7 @@
 	border-radius:50%;
 	background:#fff;
 	position: absolute;
-	top:0.15rem;
+	top:0.12rem;
 	right:0.05rem;
 }
 .yzf-xuanze .da{
@@ -169,7 +169,7 @@
 	border-radius:50%;
 	background:#fff;
 	position: absolute;
-	top:0.15rem;
+	top:0.12rem;
 	right:0.05rem;
 }
 
@@ -258,6 +258,7 @@
 	height:0.95rem;
 	float:left;
 	margin-left:0.72rem;
+	color:#ccc;
 }
 .yzf-neirong img{
 	width:1.7rem;
