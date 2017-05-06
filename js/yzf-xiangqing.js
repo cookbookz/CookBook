@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$('.di').on('touchstart',function(){
+		$(this).css('background','#ffdc3b');
+		$('.da').css('background','#fff');
+	})
+		$('.da').on('touchstart',function(){
+		$(this).css('background','#ffdc3b');
+		$('.di').css('background','#fff');
+	})
+})
