@@ -14,12 +14,16 @@
 	top:0.3rem;
 	left:0.3rem;
 }
-.yzf-nav img:nth-child(3){
+.yzf-nav .fabu{
 	width:2.86rem;
 	height:1rem;
 	position:absolute;
 	bottom:1rem;
 	left:2.5rem;
+}
+.yzf-nav .fabu img{
+	width:2.86rem;
+	height:1rem;
 }
 form textarea{
 	width:4.9rem;
