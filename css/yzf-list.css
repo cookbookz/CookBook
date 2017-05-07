@@ -10,8 +10,6 @@
 	margin-top:0.5rem;
 }
 
-
-
 .yzf-box > a{
 	width:0.15rem;
 	height:0.25rem;
@@ -89,6 +87,7 @@
 	height:1rem;
 	line-height:1rem;
 	float:left;
+	border-bottom: 1px dashed #ffdc3b;
 }
 .yzf-list li span:first-child{
 	width:0.1rem;

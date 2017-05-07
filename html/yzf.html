@@ -328,18 +328,18 @@
 			<img src="../img/yzf/lianjie_03.png" alt="" />
 			<img src="../img/yzf/chahao_03.png" alt="" />
 		</div>
+		<script>
+            var myScroll;
+            function loaded () {
+                myScroll = new IScroll('#wrapper', {
+                    scrollbars: true,
+                    mouseWheel: true,
+                    interactiveScrollbars: true,
+                    shrinkScrollbars: 'scale',
+                    fadeScrollbars: true,
+                    click:true,
+                });
+            }
+		</script>
 	</body>
 </html>
-<script>
-var myScroll;
-function loaded () {
-    myScroll = new IScroll('#wrapper', {
-        scrollbars: true,
-        mouseWheel: true,
-        interactiveScrollbars: true,
-        shrinkScrollbars: 'scale',
-        fadeScrollbars: true,
-       	click:true,
-    });
-}
-</script>
