@@ -228,6 +228,7 @@ h6{
 	height:0.32rem;
 	margin-left:0.8rem;
 	border-radius: 5px;
+	margin-top:0.3rem;
 	float:left;
 	display: flex;
 	justify-content: space-around;
@@ -641,6 +642,7 @@ div.zl-banner2 >ul >li >div.zl-content >div.zl-customer >a{
 	display: flex;
 	justify-content: space-around;
 	background:#fff;
+	padding-bottom: 0.5rem;
 }
 .icon img{
 	display: block;
@@ -653,7 +655,7 @@ div.zhezhao{
 	height:13rem;
 	background:rgba(0,0,0,0.5);
 	position:fixed;
-	top:1.78rem;
+	top:1rem;
 	left:0;
 	display: none;
 	z-index:100000;

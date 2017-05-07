@@ -21,7 +21,7 @@
 	margin-top:0.3rem;
 	width:0.2rem;
 	height:0.3rem;
-	margin:left:0.3rem;
+	margin-left:0.3rem;
 }
 .yzf-nav img:nth-child(2){
 	width:2.4rem;
@@ -67,7 +67,7 @@
 	color:#ffdc3b;
 	margin-top:0.05rem;
 	margin-left:0.2rem;
-	color:##ffdc3b;
+	color:#ffdc3b;
 	float:left;
 	line-height:0.38rem;
 	text-align: center;
@@ -112,9 +112,7 @@
 .active{
 	display: none;
 }
-.active{
-	display: block;
-}
+
 .bb >li >img:first-child{
 	width:1.04rem;
 	height:1.06rem;
@@ -128,6 +126,7 @@
 	float:left;
 	margin-top:0.4rem;
 }
+
 .bb >li >div{
 	width:80%;
 	height:auto;
@@ -151,4 +150,7 @@
 .bb >li >.del >img{
 	width:0.68rem;
 	height:0.6rem;
+}
+#wrapper > #scroller >.bb >li > .active2{
+	display: block;
 }
