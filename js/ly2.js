@@ -2,6 +2,9 @@ $(document).ready(function(){
 	$('.ly-yxzc').on('touchstart',function(){
 		location.href='ly2-2.html';
 	})
+	$('.top>a').on('touchstart',function(){
+		history.back(0);
+	})
 	
 	//手机验证
 	$('#aa').validate({

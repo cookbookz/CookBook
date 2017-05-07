@@ -2,7 +2,9 @@ $(document).ready(function(){
 	$('.ly-sjzc').on('touchstart',function(){
 		location.href="ly2.html";
 	})	
-	
+	$('.top>a').on('touchstart',function(){
+		history.back(0);
+	})
 	//邮箱验证
 		$('#aa').validate({
 			onfocusout:false,

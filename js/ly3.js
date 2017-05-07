@@ -36,6 +36,7 @@ $(document).ready(function(){
 									
 		},
 		submitHandler:function () { 
+			document.cookie='denglu';
 			
 			location.href='zl-index.html';
 		
