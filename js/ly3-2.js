@@ -7,6 +7,7 @@ $(document).ready(function(){
 	})
 	
 	$('#aa').validate({
+		onfocusout:false,
 		rules:{
 			email:{
 				required:true,
@@ -32,6 +33,11 @@ $(document).ready(function(){
 			},
 									
 		},
+		submitHandler:function () { 
+			
+			location.href='zl-index.html';
+		
+       }
 	})
 	
 	$('.ly-del').on('touchstart',function(){
@@ -45,12 +51,6 @@ $(document).ready(function(){
 		$('.ly-zc>a').removeClass('ly-yc').on('touchstart',function(){
 			history.go(0);
 		})
-	})
-	$('.ly-close').on('touchstart',function(){
-		$('.zc').addClass('ly-yc');
-		$('.ly-close').addClass('ly-yc');
-		$('.ly-zccg').addClass('ly-yc');
-		$('.ly-zc>a').addClass('ly-yc');
 	})
 	$('.ck').on('touchstart',function(){
 		$('#password').attr('type','text');

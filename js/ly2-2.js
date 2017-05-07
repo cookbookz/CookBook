@@ -5,6 +5,7 @@ $(document).ready(function(){
 	
 	//邮箱验证
 		$('#aa').validate({
+			onfocusout:false,
 		rules:{
 			email:{
 				required:true,
@@ -21,6 +22,12 @@ $(document).ready(function(){
 				maxlength:20,
 				equalTo: "#password",
 			},
+			yanzheng:{
+				required:true,
+				minlength:4,
+				maxlength:4,				
+			}
+			
 			
 		},
 		messages:{
@@ -40,18 +47,24 @@ $(document).ready(function(){
 				maxlength:"请输入一个6~20位的密码！",
 				equalTo:"请输入相同的密码",
 			},
+			yanzheng:{
+				required:"验证码不能为空",
+				minlength:"请输入正确的验证码！",
+				maxlength:"请输入正确的验证码！",
+			}
 			
-		}
+		},
+		submitHandler:function () { 
+			$('.zc').removeClass('ly-yc');
+			$('.ly-zccg').removeClass('ly-yc');
+			$('.ly-zc>a').removeClass('ly-yc').on('touchstart',function(){
+			location.href='ly3-2.html';
+		})
+       }
 	})
 		
 	//马上注册
-	$('.ly-ljzc > a').delay(3000).on('touchstart',function(){
-		$('.zc').removeClass('ly-yc');
-		$('.ly-zccg').removeClass('ly-yc');
-		$('.ly-zc>a').removeClass('ly-yc').delay(2000).on('touchstart',function(){
-			location.href='ly3-2.html';
-		})
-	});
+
 	$('.ck').on('touchstart',function(){
 		$('#password').attr('type','text');
 	})

@@ -5,6 +5,7 @@ $(document).ready(function(){
 	
 	//手机验证
 	$('#aa').validate({
+		onfocusout:false,
 		rules:{
 			telephone:{
 				required:true,
@@ -21,7 +22,12 @@ $(document).ready(function(){
 				minlength:6,
 				maxlength:20,
 				equalTo: "#password",
-			},			
+			},	
+			yanzheng:{
+				required:true,
+				minlength:4,
+				maxlength:4,				
+			}
 		},
 		messages:{
 			telephone:{
@@ -40,26 +46,24 @@ $(document).ready(function(){
 				required:"密码不能为空，请输入密码！",
 				minlength:"请输入一个6~20位的密码!",
 				maxlength:"请输入一个6~20位的密码！",
-			},						
-		}
-	})
-//	if($('#yanzheng').val()==null){
-//		$('.ly-yz').removeClass('ly-yc');
-//	}else{
-//		if($('#yanzheng').val()==1234){
-//			$('.ly-yz').addClass('ly-yc');
-//		}else{
-//			$('.ly-yz').removeClass('ly-yc');
-//		}
-//	};
-
-	$('.ly-ljzc > a').delay(3000).on('touchstart',function(){
-		$('.zc').removeClass('ly-yc');
-		$('.ly-zccg').removeClass('ly-yc');
-		$('.ly-zc>a').removeClass('ly-yc').on('touchstart',function(){
+			},	
+			yanzheng:{
+				required:"验证码不能为空",
+				minlength:"请输入正确的验证码！",
+				maxlength:"请输入正确的验证码！",
+			}
+		},
+		submitHandler:function () { 
+			$('.zc').removeClass('ly-yc');
+			$('.ly-zccg').removeClass('ly-yc');
+			$('.ly-zc>a').removeClass('ly-yc').on('touchstart',function(){
 			location.href='ly3.html';
 		})
-	});
+       }
+		
+     
+	})
+
 	$('.ck').on('touchstart',function(){
 		$('#password').attr('type','text');
 	})

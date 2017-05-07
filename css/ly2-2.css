@@ -219,3 +219,21 @@ body, html {
 	margin-top:0.1rem;
 	float:left;
 }
+#submit{
+	width:3.02rem;
+	height:0.7rem;
+	background-image: url(../img/ly/zhuce.png);
+	background-size: 100% 100%;
+	background-position: center;
+	border:none; 
+	margin-top:0.3rem;
+	margin-left:1.32rem;
+}
+#yanzheng-error{
+	width:2.82rem;
+	height:0.32rem;
+	color:red;
+	margin-left:1.1rem;
+	margin-top:0.1rem;
+	float:left;
+}

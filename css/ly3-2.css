@@ -170,7 +170,7 @@ body, html {
   height: 0.24rem;
   float: left;
   font-size: 0.24rem;
-  padding-left: 0.9rem;
+  padding-left: 1.2rem;
   box-sizing: border-box;
   margin-top: 0.3rem;
 }
@@ -261,3 +261,12 @@ body, html {
 	margin-top:0.1rem;
 	float:left;
 }
+#submit{
+	width:3.02rem;
+	height:0.7rem;
+	background-image: url(../img/ly/ly-dengl.png);
+	background-size: 100% 100%;
+	background-position: center;
+	border:none; 
+	margin-top:-0.5rem;
+	margin-left:1.32rem;
