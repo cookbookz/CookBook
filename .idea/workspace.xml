@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81354329-79ef-45c8-b371-8186245170a4" name="默认" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/friend.css" afterPath="$PROJECT_DIR$/css/friend.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/yzf-list.css" afterPath="$PROJECT_DIR$/css/yzf-list.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/yzf.css" afterPath="$PROJECT_DIR$/css/yzf.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/friend.html" afterPath="$PROJECT_DIR$/html/friend.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/yzf-friend.js" afterPath="$PROJECT_DIR$/js/yzf-friend.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +18,8 @@
       <file leaf-file-name="friend.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/friend.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="59" column="45" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="45" />
+            <state relative-caret-position="-4056">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -30,8 +28,51 @@
       <file leaf-file-name="yzf-friend.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/yzf-friend.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+            <state relative-caret-position="384">
+              <caret line="38" column="63" lean-forward="false" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="biao.html" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Documents/Tencent Files/1213128156/FileRecv/可编辑的表格/biao.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-480">
+              <caret line="158" column="28" lean-forward="true" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+              <folding>
+                <marker date="1494177935281" expanded="true" signature="1926:2069" ph="..." />
+                <marker date="1494177935281" expanded="true" signature="2659:2796" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zl-index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/zl-index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-240">
+              <caret line="155" column="59" lean-forward="true" selection-start-line="155" selection-start-column="59" selection-end-line="155" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zl-index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/zl-index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yzf-xiangqing.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/yzf-xiangqing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,8 +81,8 @@
       <file leaf-file-name="friend.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/friend.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="153" column="22" lean-forward="false" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
+            <state relative-caret-position="191">
+              <caret line="109" column="34" lean-forward="true" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -60,6 +101,8 @@
         <option value="$PROJECT_DIR$/css/yzf-list.css" />
         <option value="$PROJECT_DIR$/css/yzf.css" />
         <option value="$PROJECT_DIR$/css/friend.css" />
+        <option value="$PROJECT_DIR$/html/friend.html" />
+        <option value="D:/Documents/Tencent Files/1213128156/FileRecv/可编辑的表格/biao.html" />
         <option value="$PROJECT_DIR$/js/yzf-friend.js" />
       </list>
     </option>
@@ -116,34 +159,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CookBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CookBook" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CookBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CookBook" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -242,12 +257,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493800461444</updated>
       <workItem from="1493800464301" duration="77000" />
-      <workItem from="1494156004851" duration="7318000" />
+      <workItem from="1494156004851" duration="14354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7395000" />
+    <option name="totallyTimeSpent" value="14431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -333,26 +348,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/friend.html">
+    <entry file="file://$PROJECT_DIR$/html/yzf-xiangqing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="59" column="45" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="45" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/zl-chuancai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/friend.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="153" column="22" lean-forward="false" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
+        <state relative-caret-position="191">
+          <caret line="109" column="34" lean-forward="true" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/zl-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="155" column="59" lean-forward="true" selection-start-line="155" selection-start-column="59" selection-end-line="155" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/zl-index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/friend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4056">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Documents/Tencent Files/1213128156/FileRecv/可编辑的表格/biao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="158" column="28" lean-forward="true" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+          <folding>
+            <marker date="1494177935281" expanded="true" signature="1926:2069" ph="..." />
+            <marker date="1494177935281" expanded="true" signature="2659:2796" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/yzf-friend.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        <state relative-caret-position="384">
+          <caret line="38" column="63" lean-forward="false" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
           <folding />
         </state>
       </provider>

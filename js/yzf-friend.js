@@ -1,26 +1,53 @@
 $(document).ready(function(){
+	// $('.bb > li').each(function(index,value){
+	// 	$(this).on('touchstart',function(){
+	// 		$(this).on('touchmove',function(){
+	// 			$(this).toggleClass('move');
+	// 			$('.guanzhu').eq(index).toggleClass('active');
+	// 			$('.del').eq(index).toggleClass('active2');
+	// 			$('.del img:first-child').on('touchstart',function(){
+	// 				$('.bb > li').eq(index).prependTo('.bb');
+	// 				// $('.bb > li').eq(index).css('transform','translateX(0)');
+	// 				// $('.guanzhu').eq(index).css('display','block');
+	// 				// $('.del').eq(index).css('display','none');
+	// 			})
+	// 			$('.del img:nth-child(2)').on('touchstart',function(){
+	// 				$('.bb > li').eq(index).css('display','none');
+	// 			})
+	// 		})
+	// 	})
+	// })
+
 	$('.bb > li').each(function(index,value){
-		$(this).on('touchstart',function(){
-			$(this).on('touchmove',function(){
-				$(this).toggleClass('move');
-				$('.guanzhu').eq(index).toggleClass('active');
-				$('.del').eq(index).toggleClass('active2');
-				$('.del img:first-child').on('touchstart',function(){
-					$('.bb > li').eq(index).prependTo('.bb');
-					// $('.bb > li').eq(index).css('transform','translateX(0)');
-					// $('.guanzhu').eq(index).css('display','block');
-					// $('.del').eq(index).css('display','none');
-				})
-				$('.del img:nth-child(2)').on('touchstart',function(){
-					$('.bb > li').eq(index).css('display','none');
-				})
+		var hammertime = new Hammer(value);
+		var that=$(this)
+		//为该dom元素指定触屏移动事件
+		hammertime.on("swipeleft", function () {
+                //控制台输出
+            that.css('transform','translateX(-0.5rem)');
+            $('.guanzhu').eq(index).css('display','none');
+            $('.del').eq(index).css('display','block');
+			//删除
+            $('.del img:nth-child(2)').on('touchstart',function(){
+
+				$('.bb > li').eq(index).css('display','none');
 			})
+			//置顶
+            $('.del img:first-child').on('touchstart',function() {
+                $('.bb > li').css('transform','translateX(0rem)').eq(index).prependTo('.bb');
+                $('.del').eq(index).css('display','none');
+                $('.guanzhu').eq(index).css('display','block');
+            })
 		})
-	})
 
 
-
-
+    	hammertime.on("swiperight", function () {
+        		//控制台输出
+            that.css('transform','translateX(0rem)');
+            $('.guanzhu').eq(index).css('display','block');
+            $('.del').eq(index).css('display','none');
+        })
+        })
 
 
 
