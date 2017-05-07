@@ -56,7 +56,7 @@ $(document).ready(function(){
 		submitHandler:function () { 
 			$('.zc').removeClass('ly-yc');
 			$('.ly-zccg').removeClass('ly-yc');
-			$('.ly-zc>a').removeClass('ly-yc').on('touchstart',function(){
+			$('.ly-ljzc>a').removeClass('ly-yc').on('touchstart',function(){
 			location.href='ly3.html';
 		})
        }

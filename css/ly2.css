@@ -67,12 +67,17 @@ body, html {
   background: white;
   border-radius: 0.02rem; }
   .ly-ljzc > a {
-    display: block;
-    margin: 0.7rem auto;
-    width: 1.26rem;
-    height: 0.43rem; }
-    .ly-ljzc > a img {
-      width: 100%; }
+  width: 3.06rem;
+  height: 0.67rem;
+  position: absolute;
+  left:2.3rem;
+  top: 5.2rem;
+  z-index: 20;
+}
+
+.ly-ljzc > a > img {
+  width: 100%;
+}
   .ly-ljzc .ly-sjzc {
     width: 50%;
     height: 0.72rem;
