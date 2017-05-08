@@ -105,6 +105,7 @@
 	float:left;
 	border-bottom: 1px solid #ffdc3b;
 	position:relative;
+	transition: all 0.2s;
 }
 .move{
 	transform:translateX(-0.5rem);
