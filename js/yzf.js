@@ -31,8 +31,8 @@ $(document).ready(function(){
 	//美食做法
 	$('.yzf-box4 li').each(function(index,value){
 		$(this).on('touchstart',function(){
-			$(this).children('img').css({"width":"4rem","height":"2rem","transition":"all 0.5s linear"}).end().siblings().children('img').css({"width":"3.5rem","height":"1.65rem","transition":"all 0.5s linear"});
-            $(this).children('span').css({"line-height":"2rem","transition":"all 0.5s linear"}).end().siblings().children('span').css({"line-height":"1.65rem","transition":"all 0.5s linear"});
+			$(this).children('img').css({"width":"4rem","height":"2rem","transition":"all 0.2s linear"}).end().siblings().children('img').css({"width":"3.5rem","height":"1.65rem","transition":"all 0.2s linear"});
+            $(this).children('span').css({"line-height":"2rem","transition":"all 0.2s linear"}).end().siblings().children('span').css({"line-height":"1.65rem","transition":"all 0.2s linear"});
 		})
 	})
     //返回

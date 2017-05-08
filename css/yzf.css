@@ -271,6 +271,8 @@ h6{
 	color:#fff;
 }
 .yzf-box5 span:first-child{
+	font-size:0.24rem;
+	font-size:0.1rem;
 	display: block;
 	width:1.05rem;
 	height:0.32rem;
@@ -278,10 +280,11 @@ h6{
 	background: #fb7070;
 	float:left;
 	text-align: center;
-	line-height:0.32rem;
+	line-height:0.3rem;
 	color:#fff;
 }
 .yzf-box5 span:nth-child(2){
+	font-size:0.24rem;
 	display: block;
 	width:1.05rem;
 	height:0.32rem;
@@ -289,9 +292,10 @@ h6{
 	background: #ffe157;
 	float:left;
 	text-align: center;
-	line-height:0.32rem ;
+	line-height:0.3rem ;
 }
 .yzf-box5 span:nth-child(3){
+	font-size:0.24rem;
 	display: block;
 	width:1.05rem;
 	height:0.32rem;
@@ -299,7 +303,7 @@ h6{
 	background: #4088ff;
 	float:left;
 	text-align: center;
-	line-height:0.32rem ;
+	line-height:0.3rem ;
 }
 /*美食做法*/
 .yzf-box4{
