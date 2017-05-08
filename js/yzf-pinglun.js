@@ -4,7 +4,7 @@ $(document).ready(function(){
 	})
 	
 	    //返回
-    $('.yzf-nav img:first-child').on('touchstart',function(){
+    $('.yzf-nav img:nth-child(2)').on('touchstart',function(){
         history.back(0);
         // console.log(1);
     })

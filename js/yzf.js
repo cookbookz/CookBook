@@ -23,7 +23,7 @@ $(document).ready(function(){
 		   })
     // 返回
     $('.yzf-nav img:first-child').on('touchstart',function(){
-        history.back(0);
+        history.back();
     })
 
 
@@ -36,10 +36,10 @@ $(document).ready(function(){
 		})
 	})
     //返回
-    $('.yzf-nav img:first-child').on('touchstart',function(){
-        history.back(0);
-        // console.log(1);
-    })
+//  $('.yzf-nav img:first-child').on('touchstart',function(){
+//      history.back(0);
+//      // console.log(1);
+//  })
     //下拉
     $('.yzf-nav img:last-child').on('touchstart',function(){
 		$('.yzf-slide').slideDown();
