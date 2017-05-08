@@ -42,7 +42,15 @@ $(document).ready(function(){
     })
     //下拉
     $('.yzf-nav img:last-child').on('touchstart',function(){
-        
+		$('.yzf-slide').slideDown();
     })
+		$('#wrapper').on('touchstart',function(e){
+//			if((e.target==$('.yzf-nav img:last-child')[0])||(e.target==$('.yzf-slide>ul')[0])){
+//			if(e.target==$('.yzf-nav img:last-child')[0]){
+//				return;
+//			}else{
+				$('.yzf-slide').slideUp();		
+//			}
+		})
 
 })

@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81354329-79ef-45c8-b371-8186245170a4" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/yzf-meishi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/yzf-list.css" afterPath="$PROJECT_DIR$/css/yzf-list.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/yzf-meishi.css" afterPath="$PROJECT_DIR$/css/yzf-meishi.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/yzf-xiangqing.css" afterPath="$PROJECT_DIR$/css/yzf-xiangqing.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/yzf.css" afterPath="$PROJECT_DIR$/css/yzf.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/yzf-list.html" afterPath="$PROJECT_DIR$/html/yzf-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/yzf-meishi.html" afterPath="$PROJECT_DIR$/html/yzf-meishi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/yzf.html" afterPath="$PROJECT_DIR$/html/yzf.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/yzf-friend.js" afterPath="$PROJECT_DIR$/js/yzf-friend.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/yzf-list.js" afterPath="$PROJECT_DIR$/js/yzf-list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/yzf.js" afterPath="$PROJECT_DIR$/js/yzf.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +27,8 @@
       <file leaf-file-name="yzf.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/yzf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state relative-caret-position="351">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/css/yzf.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+              <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -149,7 +138,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -163,7 +152,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yzf" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -173,7 +166,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/wamp/www/5.2phpyufa" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -268,18 +261,17 @@
       <updated>1493800461444</updated>
       <workItem from="1493800464301" duration="77000" />
       <workItem from="1494156004851" duration="24154000" />
-      <workItem from="1494222080444" duration="1099000" />
+      <workItem from="1494222080444" duration="1273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25330000" />
+    <option name="totallyTimeSpent" value="25504000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13323572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13323572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -483,7 +475,7 @@
     <entry file="file://$PROJECT_DIR$/css/yzf.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -527,8 +519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/yzf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        <state relative-caret-position="351">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
