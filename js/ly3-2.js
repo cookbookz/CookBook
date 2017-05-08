@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('.top>a').on('touchstart',function(){
-		location.href='ly2.html';
+		history.back(0);
 	})
 	$('.ly-sjzc').on('touchstart',function(){
 		location.href='ly3.html';
@@ -54,6 +54,9 @@ $(document).ready(function(){
 	})
 	$('.ck').on('touchstart',function(){
 		$('#password').attr('type','text');
+	})
+	$('.ly-kszc').on('touchstart',function(){
+		location.href='ly2-2.html';
 	})
 	
 })

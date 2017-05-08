@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('.top>a').on('touchstart',function(){
-		location.href='ly2.html';
+		history.back(0);
 	})
 	$('.ly-yxzc').on('touchstart',function(){
 		location.href='ly3-2.html';
@@ -10,6 +10,7 @@ $(document).ready(function(){
 		onfocusout:false,
 		rules:{
 			telephone:{
+				number:true,
 				required:true,
 				minlength:11,
 				maxlength:11,
@@ -23,6 +24,7 @@ $(document).ready(function(){
 		},
 		messages:{
 			telephone:{
+				number:"格式不正确！",
 				required:"手机号不能为空！！",
 				minlength:"请输入正确的手机号！",
 				maxlength:"请输入正确的手机号！",
@@ -57,6 +59,9 @@ $(document).ready(function(){
 	
 	$('.ck').on('touchstart',function(){
 		$('#password').attr('type','text');
+	})
+	$('.ly-kszc').on('touchstart',function(){
+		location.href='ly2.html';
 	})
 	
 })

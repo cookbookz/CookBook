@@ -14,6 +14,7 @@ $(document).ready(function(){
 				required:true,
 				minlength:11,
 				maxlength:11,
+				number:true,
 			},
 			password:{
 				required:true,
@@ -34,6 +35,7 @@ $(document).ready(function(){
 		},
 		messages:{
 			telephone:{
+				number:"格式不正确！",
 				required:"请输入手机号！",
 				minlength:"请输入正确的手机号！",
 				maxlength:"请输入正确的手机号！",
