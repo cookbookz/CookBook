@@ -4,7 +4,7 @@
 $(document).ready(function(){
     $('.box-nav2 span').each(function(index,value){
         $(this).on('touchstart',function(){
-            $(this).addClass('active');
+            $(this).addClass('active').siblings().removeClass('active');
     })
     })
 

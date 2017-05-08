@@ -5,7 +5,7 @@ $(document).ready(function(){
 	
 	    //返回
     $('.yzf-nav img:nth-child(2)').on('touchstart',function(){
-        history.back(0);
+        history.back();
         // console.log(1);
     })
 })
