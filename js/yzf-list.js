@@ -37,7 +37,7 @@ $(document).ready(function(){
 
 
     // 返回
-    $('.box-nav img:first-child').on('touchstart',function(){
-        history.back(0);
+    $('.yzf-box a img:first-child').on('touchstart',function(){
+        history.back();
     })
 })

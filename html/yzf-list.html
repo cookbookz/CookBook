@@ -11,7 +11,6 @@
 		<script src="../js/jquery.js"></script>
 		<script src="../js/zepto.js"></script>
 		<script src="../js/swiper.js"></script>
-		<script src="../js/iscroll.js"></script>
 		<script src="../js/yzf-list.js"></script>
 		<style>
 			#wrapper {
@@ -31,11 +30,11 @@
 			}
 		</style>
 	</head>
-	<body onload="loaded()">
+	<body>
 		<div class="yzf-nav">
 			<div class="yzf-box">
-				<a href="yzf.html">
-					<img class="photo-one" src="../img/yzf/pinglun1_03.png" alt="" />
+				<a href="javascript:;">
+					<img class="photo-one" src="../img/yzf/pinglun1_03.png" alt="" />	
 				</a>
 				<div class="yzf-center">
 					<span>菜谱清单</span>
@@ -359,18 +358,5 @@
                 </ul>
 
 
-        <script>
-            var myScroll;
-            function loaded () {
-                myScroll = new IScroll('#wrapper', {
-                    scrollbars: true,
-                    mouseWheel: true,
-                    interactiveScrollbars: true,
-                    shrinkScrollbars: 'scale',
-                    fadeScrollbars: true,
-                    click:true,
-                });
-            }
-        </script>
 	</body>
 </html>
