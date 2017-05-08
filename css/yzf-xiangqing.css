@@ -212,13 +212,15 @@
 
 
 /*产品*/
+a{
+	color:#333;
+}
 .yzf-chanpin{
 	width:100%;
 	height:2.4rem;
 	box-shadow: 0 0 10px 3px #ccc;
 	float:left;
 	margin-top:0.3rem;
-	/*display: none;*/
 }
 .yzf-chanpin .yzf-photo{
 	width:2.06rem;
@@ -260,6 +262,9 @@
 	margin-left:0.72rem;
 	color:#ccc;
 }
+.yzf-neirong > h5{
+	 color:#ccc;
+ }
 .yzf-neirong img{
 	width:1.7rem;
 	height:0.15rem;
@@ -282,5 +287,6 @@
 .yzf-dianzan span{
 	margin-bottom:0.1rem;
 	float:left;
+	color:#ccc;
 }
 

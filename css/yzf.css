@@ -31,25 +31,28 @@ body{
 	float: left;
 	width: 0.16rem;
 	height: 0.28rem;
-	margin:0.3rem auto 0.3rem 0.32rem;
+	margin:0.4rem auto 0.3rem 0.32rem;
 }
 .yzf-nav img:nth-child(2){
 	display: block;
 	float: left;
 	width: 2.5rem;
 	height: 0.7rem;
-	margin: 0.1rem auto 0.14rem 2rem;
+	margin: 0.15rem auto 0.14rem 2rem;
 }
 .yzf-nav img:nth-child(3){
 	display: block;
 	float: right;
 	width: 0.5rem;
 	height: 0.2rem;
-	margin:0.3rem 0.34rem 0.34rem auto;
+	margin:0.4rem 0.34rem 0.34rem auto;
 }
 /*内容*/
 .yzf-box{
 	background: #fff;
+	height:auto;
+	overflow: hidden;
+	padding-bottom:0.5rem;
 }
 .yzf-box1{
 	width:7rem;
@@ -142,7 +145,7 @@ h6{
 	width:3.3rem;
 	height:1rem;
 	margin: 0 auto;
-	margin-top: 0.55rem;
+	margin-top: 0.65rem;
 	background:#fff;
 }
 .yzf-shicai img{
@@ -233,6 +236,10 @@ h6{
 	display: flex;
 	justify-content: space-around;
 	color:#fff;
+	margin-bottom:0.5rem;
+}
+.yzf-box5 > a{
+	color:#fff;
 }
 .yzf-box5 span:first-child{
 	display: block;
@@ -242,7 +249,8 @@ h6{
 	background: #fb7070;
 	float:left;
 	text-align: center;
-	line-height:0.28rem ;
+	line-height:0.28rem;
+	color:#fff;
 }
 .yzf-box5 span:nth-child(2){
 	display: block;
@@ -276,9 +284,9 @@ h6{
 }
 .yzf-box4 > li:first-child{
 	width:100%;
-	height:1.13rem;
+	height:auto;
 	float:left;
-	line-height:1.13rem;
+	line-height:1.65rem;
 	float:left;
 }
 .yzf-box4 > li:first-child > span{
@@ -289,13 +297,13 @@ h6{
 	float:left;
 }
 .yzf-box4 > li:first-child > img{
-	width:3.15rem;
-	height:1.13rem;
+	width:3.5rem;
+	height:1.65rem;
 	float:right;
 }
 .yzf-box4 > li:nth-child(2){
 	width:100%;
-	height:1.65rem;
+	height:auto;
 	float:left;
 	line-height:1.65rem;
 	float:left;
@@ -314,9 +322,9 @@ h6{
 }
 .yzf-box4 > li:nth-child(3){
 	width:100%;
-	height:2.3rem;
+	height:auto;
 	float:left;
-	line-height:2.3rem;
+	line-height:1.65rem;
 	float:left;
 }
 .yzf-box4 > li:nth-child(3) > span{
@@ -327,46 +335,46 @@ h6{
 	float:left;
 }
 .yzf-box4 > li:nth-child(3) > img{
-	width:4.15rem;
-	height:2.3rem;
+	width:3.5rem;
+	height:1.65rem;
 	float:right;
 }
 .yzf-box4 > li:nth-child(4){
 	width:100%;
-	height:1.7rem;
+	height:auto;
 	float:left;
-	line-height:1.7rem;
+	line-height:1.65rem;
 	float:left;
 }
 .yzf-box4 > li:nth-child(4) > span{
 	width:auto;
-	height:1.7rem;
+	height:auto;
 	display: block;
 	margin-left:0.3rem;
 	float:left;
 }
 .yzf-box4 > li:nth-child(4) > img{
 	width:3.52rem;
-	height:1.7rem;
+	height:1.65rem;
 	float:right;
 }
 .yzf-box4 > li:nth-child(5){
 	width:100%;
-	height:1.08rem;
+	height:auto;
 	float:left;
-	line-height:1.08rem;
+	line-height:1.65rem;
 	float:left;
 }
 .yzf-box4 > li:nth-child(5) > span{
 	width:auto;
-	height:1.08rem;
+	height:auto;
 	display: block;
 	margin-left:0.3rem;
 	float:left;
 }
 .yzf-box4 > li:nth-child(5) > img{
-	width:3.52rem;
-	height:1.08rem;
+	width:3.5rem;
+	height:1.65rem;
 	float:right;
 }
 

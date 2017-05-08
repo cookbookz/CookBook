@@ -77,4 +77,10 @@ $(document).ready(function(){
 		});
 	})
 
+
+
+    // 返回
+    $('.yzf-box img:first-child').on('touchstart',function(){
+        history.back(0);
+    })
 })

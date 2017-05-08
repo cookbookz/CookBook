@@ -43,6 +43,18 @@
 	width:4.55rem;
 	height:0.7rem;
 }
+.box-nav2 span:first-child.active{
+	color:#fff;
+	background:#ffdc3b;
+}
+.box-nav2 span:nth-child(2).active{
+	color:#fff;
+	background:#ffdc3b;
+}
+.box-nav2 span:nth-child(3).active{
+	color:#fff;
+	background:#ffdc3b;
+}
 .box-nav2 span:first-child{
 	width:0.82rem;
 	height:0.3rem;
@@ -53,6 +65,7 @@
 	top:0.2rem;
 	left:0.4rem;
 	text-align: center;
+	border-radius:10px;
 }
 .box-nav2 span:nth-child(2){
 	width:0.82rem;
@@ -64,13 +77,15 @@
 	top:0.2rem;
 	left:1.85rem;
 	text-align: center;
+	border-radius:10px;
+
 }
 .box-nav2 span:nth-child(3){
 	width:0.82rem;
 	height:0.3rem;
-	background:#ffdc3b;
+	background:#fff;
 	display: block;
-	color:#fff;
+	color:#ffdc3b;
 	font-size:0.24rem;
 	position:absolute;
 	top:0.2rem;
@@ -134,7 +149,7 @@
 	height:0.4rem;
 	float:right;
 	margin-top:0.7rem;
-	margin-right:0.3rem;s
+	margin-right:0.3rem;
 }
 .yzf-box1 .yzf-font{
 	font-size:0.22rem;

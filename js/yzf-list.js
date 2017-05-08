@@ -34,4 +34,10 @@ $(document).ready(function(){
 			'color':'#ffdc3b'
 		});
 	})
+
+
+    // 返回
+    $('.box-nav img:first-child').on('touchstart',function(){
+        history.back(0);
+    })
 })
